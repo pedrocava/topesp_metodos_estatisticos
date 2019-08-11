@@ -5,13 +5,5 @@
 ### Tópicos Especiais de Métodos Estatísticos
 
 
-# Primeiro definimos uma função de teste de par e ímpar
-
-function is_par(n)
-
-    if n %% 2 == 0
-        return(TRUE)
-    else
-        return(FALSE)
-
-    end
+function weierstrass(x, eps = 9^(-5))
+    
