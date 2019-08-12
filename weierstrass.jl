@@ -19,15 +19,15 @@ function weierstrass(x, a = 0.5, b = 7, eps = 9^(-5), n = 10000)
         print("b must be an odd number")
     end
 
-soma[1] = 0
+    soma[1] = 0
 
-for i = 2:n
-    if a^n * cos(b^n * pi * x) > eps
-    soma[i] = a^n * cos(b^n * pi * x) 
+    for i = 2:n
+        if a^n * cos(b^n * pi * x) > eps
+            soma[i] = a^n * cos(b^n * pi * x) 
+        end
     end
-end
 
-soma = sum(soma)
+    soma = sum(soma)
 
 
 end
