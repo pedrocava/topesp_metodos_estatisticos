@@ -27,8 +27,7 @@ function weierstrass(x, a = 0.5, b = 7, eps = 9^(-5), n = 10000)
         end
     end
 
-    soma = sum(soma)
-
+    return sum(soma)
 
 end
 
